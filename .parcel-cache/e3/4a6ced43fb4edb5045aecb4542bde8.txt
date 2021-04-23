@@ -1,0 +1,24 @@
+23
+72E:\study material\Office\Front end  web developer\projects\megmen\fb.png132633315881271801 0
+71E:\study material\Office\Front end  web developer\projects\megmen\b.jpg132633899111260971 0
+92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.135d657a.js.map132636549577079354 0
+80E:\study material\Office\Front end  web developer\projects\megmen\black-neon.jpg132633900764561509 0
+78E:\study material\Office\Front end  web developer\projects\megmen\black-1.jpeg132635326706223473 0
+70E:\study material\Office\Front end  web developer\projects\megmen\dist132636549577079354 1
+83E:\study material\Office\Front end  web developer\projects\megmen\dhamu image 1.png132499260540987260 0
+76E:\study material\Office\Front end  web developer\projects\megmen\index.html132636544281923926 0
+75E:\study material\Office\Front end  web developer\projects\megmen\index.css132635865127594852 0
+81E:\study material\Office\Front end  web developer\projects\megmen\dist\index.html132636549576979747 0
+74E:\study material\Office\Front end  web developer\projects\megmen\index.js132636534548477908 0
+76E:\study material\Office\Front end  web developer\projects\megmen\new-BG.jpg132633164860070049 0
+78E:\study material\Office\Front end  web developer\projects\megmen\package.json132636548814457674 0
+79E:\study material\Office\Front end  web developer\projects\megmen\secure-bg.jpg132633833580190729 0
+92E:\study material\Office\Front end  web developer\projects\megmen\dist\black-1.2be861be.jpeg132636548818205640 0
+92E:\study material\Office\Front end  web developer\projects\megmen\dist\black-1.89cd4202.jpeg132636549103821508 0
+89E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css132636548818405532 0
+93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css.map132636548818455512 0
+88E:\study material\Office\Front end  web developer\projects\megmen\dist\index.135d657a.js132636549577029350 0
+89E:\study material\Office\Front end  web developer\projects\megmen\dist\index.bc71e025.css132636549576979747 0
+93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.bc71e025.css.map132636549577079354 0
+88E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js132636548818405532 0
+92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js.map132636548818455512 0

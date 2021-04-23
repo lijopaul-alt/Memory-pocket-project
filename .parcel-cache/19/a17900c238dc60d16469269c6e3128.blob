@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="b7ec8803dfe983549b8be62300a3d8da">
+
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2">
+    <link href="c011285de66e9a03fb3612444854176f" rel="stylesheet">
+
+    <link href="ff4b0e6a4f486962650dcfca8e9d4fd7" rel="stylesheet">
+    <link href="041c75a469c6c940850a47a3ceb3d76c" rel="stylesheet">
+    <link href="7f423e3e2e1a8f2396599df8b5abc0e1" rel="stylesheet">
+    <link href="3d1dc7828858d82713f21a22bead7bc2" rel="stylesheet">
+      <link href="bbc39e41a0cff848324c7c9349b5d6ec" rel="stylesheet">
+       
+     
+    <link rel="stylesheet" href="56c148f2636b410bf5725004c62c3276">
+   
+  </head>
+  <body>
+    <div class="section-1 " id="HEAD">
+
+    
+      <!-- header-content-div -->
+      <section class="header--sec">
+      <div class="bg-image">
+        <div class="nav-div ">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bar-dark ">
+          
+          <a href="#" class="navbar-brand">MEMORY POCKET</a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bbb">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="bbb">
+            <ul class="navbar-nav ml-auto nav-links">
+              <li class="nav-item">
+                <a href="#HEAD" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#ABOUTUS" class="nav-link">About</a>
+              </li>
+              <li class="nav-item open--account">
+                <a href="#SIGNUP" class="nav-link ">open account</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          </nav>
+          </div>
+          
+          
+        
+        <div class="img-content">
+          <div class="first-content">
+            <h1 class="HEADING">MP</h1>
+            <p class="head">MEMORY POCKET</p>
+          </div>
+          <div class="para">
+            <h3 class="para-1">Hello there! welcome</h3>
+            <h6>
+              Do You keep forgetting your social media <br>
+              accounts password often? well! we are here to<br>
+              help you to keep all of your social media <br>
+              username and password in one GO! with ease.
+            </h6>
+            <h6 class="field">So why are you waiting ? Lets get started</h6>
+
+            <span class="text-muted"><a href="#signup" class="movedown ">sign up</a> already have an
+              account
+              <a href="#MOVE" data-toggle="modal" data-target="#exampleModalCenter" class="signin--navigate">sign in</a></span>
+          </div>
+        </div>
+      </div></section>
+      </div>
+      <!-- modal div -->
+      <!-- <div
+        class="modal fade"
+        id="exampleModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content bg">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">SIGN IN</h5>
+              <button
+                type="button"
+                class="close close--btn"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="" class="Modal-div">
+                <div class="field">
+                  <span class="fa fa-user"></span>
+                  <input type="text" required placeholder="Email" class="user--name"/>
+                </div>
+                <div class="field space">
+                  <span class="fa fa-lock"></span>
+                  <input
+                    type="password"
+                    class="pass-key"
+                    required
+                    placeholder="Password"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary model--btn"><a  class="change--color">Sign In</a> </button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+     <!-- signin-div -->
+     <div class=" form-container hidden" id="MOVE">
+       <div class="login-div">
+         <div class="logo">MP</div>
+         <div class="title">SIGN-IN FORM</div>
+         <div class="fields modal--div">
+           <div class="username--1">
+            <svg class="svg-icon" viewbox="0 0 20 20">
+							<path d="M12.075,10.812c1.358-0.853,2.242-2.507,2.242-4.037c0-2.181-1.795-4.618-4.198-4.618S5.921,4.594,5.921,6.775c0,1.53,0.884,3.185,2.242,4.037c-3.222,0.865-5.6,3.807-5.6,7.298c0,0.23,0.189,0.42,0.42,0.42h14.273c0.23,0,0.42-0.189,0.42-0.42C17.676,14.619,15.297,11.677,12.075,10.812 M6.761,6.775c0-2.162,1.773-3.778,3.358-3.778s3.359,1.616,3.359,3.778c0,2.162-1.774,3.778-3.359,3.778S6.761,8.937,6.761,6.775 M3.415,17.69c0.218-3.51,3.142-6.297,6.704-6.297c3.562,0,6.486,2.787,6.705,6.297H3.415z"></path>
+						</svg>
+             <input type="username" class="user--input" placeholder="username">
+           </div>
+           <div class="password--1">
+            <svg class="svg-icon" viewbox="0 0 20 20">
+							<path d="M10,6.978c-1.666,0-3.022,1.356-3.022,3.022S8.334,13.022,10,13.022s3.022-1.356,3.022-3.022S11.666,6.978,10,6.978M10,12.267c-1.25,0-2.267-1.017-2.267-2.267c0-1.25,1.016-2.267,2.267-2.267c1.251,0,2.267,1.016,2.267,2.267C12.267,11.25,11.251,12.267,10,12.267 M18.391,9.733l-1.624-1.639C14.966,6.279,12.563,5.278,10,5.278S5.034,6.279,3.234,8.094L1.609,9.733c-0.146,0.147-0.146,0.386,0,0.533l1.625,1.639c1.8,1.815,4.203,2.816,6.766,2.816s4.966-1.001,6.767-2.816l1.624-1.639C18.536,10.119,18.536,9.881,18.391,9.733 M16.229,11.373c-1.656,1.672-3.868,2.594-6.229,2.594s-4.573-0.922-6.23-2.594L2.41,10l1.36-1.374C5.427,6.955,7.639,6.033,10,6.033s4.573,0.922,6.229,2.593L17.59,10L16.229,11.373z"></path>
+						</svg>
+            <input type="password" class="pass-input" placeholder="password">
+          </div>
+         </div>
+         <button class="signin--btn"><a class="
+          anc--1" href="#main"></a> SIGN-IN</button>
+         <div class="link--tag">
+           <a href="#HEAD" class="home--btn--1"><i class="fa fa-home"></i> Go back to Home</a>
+
+         </div>
+       </div>
+
+     </div>
+      <!-- sign-up div -->
+      <section class="section signup--sec hidden" id="signup">
+      <div class="bg-img-1 " id="SIGNUP">
+        <button class="home--btn" type="submit"><a class="anc" href="#HEAD"></a><i class="fa fa-home"></i>Home</button>
+        <div class="FORM-DIV" id="signup">
+          <header class="form-header">SIGN-UP FORM</header>
+
+          <form action="#" class="sign-up">
+            <div class="user-details info">
+              <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+              <label for="username" class="label">
+                username
+                <input type="text" name="username" id="username" class="signup-user">
+              </label>
+              <label for="pwd " class="pass label">Password
+                <input type="text" name="email" id="password" class="signup-password">
+              </label>
+            </div>
+            <div class="facebook-details info">
+              <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+              <label for="Facebook" class="label">Facebook User Name
+                <input type="text" name="Facebook" id="fb-username" class="fb-user">
+              </label>
+              <label for="Fb-pass " class="pass label">Facebook Password
+                <input type="pwd" name="Facebook" id="fb-password" class="fb-pass">
+              </label>
+            </div>
+            <div class="Instagram-details info">
+              <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+              <label for="Instagram" class="label">Instagram User Name
+                <input type="text" name="Instagram" id="ins-username" class="insta-user">
+              </label>
+              <label for="Ins-password " class="pass label">Instagram Password
+                <input type="pwd" name="Instagram" id="ins-password" class="insta-pass">
+              </label>
+            </div>
+            <div class="Gmail-details info">
+              <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+              <label for="Gmail" class="label">Twitter User Name
+                <input type="text" name="Gmail" id="Gmail-username" class="twit-user">
+              </label>
+              <label for="Gmail-pasword " class="pass label">Twitter Password
+                <input type="pwd" name="Gmail" id="Gmail-password" class="twit-pass">
+              </label>
+            </div>
+            <div class="Twitter-details info">
+              <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+              <label for="Twitter" class="label">Gmail User Name
+                <input type="text" name="Twitter" id="Twitter-username" class="gmail-user">
+              </label>
+              <label for="Twitter-password " class="pass label">Gmail Password
+                <input type="pwd" name="Twitter" id="Twitter-password" class="gmail-pass">
+              </label>
+            </div>
+            <div class="GitHub-details info">
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+              <label for="GitHub" class="label">GitHub User Name
+                <input type="text" name="GitHub" id="GitHub-username" class="git-user">
+              </label>
+              <label for="GitHub-password " class="pass label">GitHub Password
+                <input type="pwd" name="GitHub" id="GitHub-password" class="git-pass">
+              </label>
+            </div>
+
+            <button class="submit-btn btn-primary-outline text-white">
+              <a href="HEAD" class="link-color"></a> SIGN-UP
+            </button>
+          </form>
+        </div>
+      </div></section>
+      
+      <!-- About div -->
+      <div class="ABOUT-US aboutus--sec" id="ABOUTUS">
+        <section class="section section--sign-up  ">
+          <div class="section__title">
+            <h3 class="section__header">
+              We are a community to help people, to remember their Credentials!
+            </h3>
+          </div>
+          <button class="btn btn--show-modal">
+            Open your free account today!
+          </button>
+        </section>
+        <footer class="footer" id="contact">
+          <ul class="footer__nav">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Terms of Use</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Blog</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+       <!-- Details Dsiaplay -->
+       <div class="details hidden " id="main">
+       <div class="container detail--1">
+           <div class="necessary">
+        <!-- <div class="row "id="Details">
+          <h1 >welcome To Memory Power </h1>
+        </div>
+        <div class="row info--1">
+          <h4>Hello username!</h4>
+
+        </div>
+        <div class="row user">
+         <div class="col-4 paint">
+           <h3 class="name">Username</h3>
+         </div>
+         <div class="col-1">
+
+         </div>
+         <div class="col-4 paint">
+            <h3 class="name">Password</h3>
+         </div>
+        </div>
+        <div class="user--saved">
+        <div class="row ">
+          <div class="col-1">
+          <i class="fa fa-facebook-official fa-2x"></i>
+          </div>
+          <div class="col-3 detail--paint">
+            <h4 class="name--detail">Facebook-user</h4>
+          </div>
+          <div class="col-1">
+           
+          </div>
+          <div class="col-3 detail--paint left">
+             <h4 class="name--detail">Facebook-pass</h4>
+          </div>
+        </div>
+        <div class="row space">
+          <div class="col-1">
+          <i class="fa fa-instagram fa-2x"></i>
+          </div>
+          <div class="col-3 detail--paint">
+            <h4 class="name--detail">instagram-user</h4>
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-3 detail--paint left">
+             <h4 class="name--detail">instagram-pass</h4>
+          </div>
+        </div>
+        <div class="row space ">
+          <div class="col-1">
+          <i class="fa fa-twitter-square fa-2x"></i>
+          </div>
+          <div class="col-3 detail--paint">
+            <h4 class="name--detail">twitter-user</h4>
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-3 detail--paint left">
+             <h4 class="name--detail">twitter-pass</h4>
+          </div>
+        </div>
+        <div class="row space">
+          <div class="col-1">
+          <i class="fa fa-envelope fa-2x"></i>
+          </div>
+          <div class="col-3 detail--paint">
+            <h4 class="name--detail">Gmail user</h4>
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-3 detail--paint left">
+             <h4 class="name--detail">Gmail-pass</h4>
+          </div>
+        </div>
+        <div class="row space">
+          <div class="col-1">
+          <i class="fa fa-github fa-2x"></i>
+          </div>
+          <div class="col-3 detail--paint">
+            <h4 class="name--detail">GitHub-user</h4>
+          </div>
+          <div class="col-1">
+
+          </div>
+          <div class="col-3 detail--paint left">
+             <h4 class="name--detail">GitHub-pass</h4>
+          </div>
+          </div>
+        </div> -->
+        </div>  
+        <div class="row ">
+          <div class="col ">
+               <button type="submit" class="detail--btn btn-primary"><a href="#HEAD" class="link--color">LOG OUT</a> </button>
+          </div>
+
+        </div>
+        <div class="row foot">
+             <div class="col-4">
+               <footer class="tet-muted"><i class="fa fa-copyright"></i> copright by lijo paul</footer>
+
+             </div>
+             <div class="col-2">
+                <a href="b58e6d36f9b93d71b9d45a0e18e1cf97"> <i class="fa fa-facebook-square"></i>Facebook</a> 
+                </div>     
+             <div class="col-2">
+              <a href="9879d85ef2acab5bf0616c9a740f1734"><i class="fa fa-instagram"></i>Instagram</a>
+             </div>
+             <div class="col-2">
+              <a href="d516fb63c7b1e6845a7626de97da3afb"><i class="fa fa-github"></i>Github</a>
+
+             </div>
+             
+        </div>
+        
+          
+      </div> 
+      </div>
+      
+    
+
+    <script src="546c3453a5c7cfe965cfd1e79cb5d74e"></script>
+    <script src="5cc1ff897255756d51e2891063e817c1"></script>
+    <script src="cdea0b61e6c192040221d48a5c2cd6b5"></script>
+    <script defer="" src="6e03fc8f7755e0659099adc26d0d3fc6"></script>
+    
+  </body>
+</html>
