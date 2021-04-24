@@ -467,6 +467,7 @@ let controller;
 let user3 = {};
 const accounts = [user1, user2];
 // Getting necessary elements
+const Section1 = document.querySelector(".section-1");
 const nav = document.querySelector(".navbar");
 const AboutDiv = document.querySelector(".ABOUT-US");
 const navDiv = document.querySelector(".nav-div");
@@ -541,12 +542,14 @@ const revealAndHideSignup = function (e) {
   console.log(id);
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   setTimeout(() => {
+    Section1.classList.toggle("hidden");
     headerSec.classList.toggle("hidden");
     Aboutusection.classList.toggle("hidden");
   }, 500);
 };
 
 const signupBacktoHome = function (e) {
+  Section1.classList.toggle("hidden");
   headerSec.classList.toggle("hidden");
   Aboutusection.classList.toggle("hidden");
   const id = e.target.querySelector(".anc");
@@ -562,12 +565,14 @@ const revealAndHideSignin = function (e) {
 
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   setTimeout(() => {
+    Section1.classList.toggle("hidden");
     headerSec.classList.toggle("hidden");
     Aboutusection.classList.toggle("hidden");
   }, 500);
 };
 
 const signinBacktoHome = function (e) {
+  Section1.classList.toggle("hidden");
   headerSec.classList.toggle("hidden");
   const id = e.target.getAttribute("href");
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
@@ -592,11 +597,12 @@ const handleObserver = function (entries) {
   }
   if (!entry.isIntersecting) {
     navDiv.classList.remove("sticky");
+    NavdivObserver.unobserve(enrty.target);
   }
 };
 const NavdivObserver = new IntersectionObserver(handleObserver, {
   root: null,
-  threshold: 0.8,
+  threshold: 0.6,
 });
 NavdivObserver.observe(AboutDiv);
 
@@ -757,7 +763,9 @@ const navigate = function () {
 
 const AlterNative = function () {
   detailsPage.classList.toggle("hidden");
-  headerSec.classList.toggle("hidden");
+  console.log(Section1);
+  Section1.classList.remove("hidden");
+  headerSec.classList.remove("hidden");
   Aboutusection.classList.toggle("hidden");
   append.innerHTML = "";
 };

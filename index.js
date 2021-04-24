@@ -23,6 +23,7 @@ let controller;
 let user3 = {};
 const accounts = [user1, user2];
 // Getting necessary elements
+const Section1 = document.querySelector(".section-1");
 const nav = document.querySelector(".navbar");
 const AboutDiv = document.querySelector(".ABOUT-US");
 const navDiv = document.querySelector(".nav-div");
@@ -45,6 +46,8 @@ const anc = document.querySelector(".anc");
 const submitBtn = document.querySelector(".submit-btn");
 const success = document.querySelector(".link-color");
 const append = document.querySelector(".necessary");
+const btnbtn = document.querySelector(".btn-btn");
+const footer = document.querySelector(".foot");
 
 // sigin-inputs
 const Username = document.querySelector(".user--input");
@@ -97,12 +100,14 @@ const revealAndHideSignup = function (e) {
   console.log(id);
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   setTimeout(() => {
+    Section1.classList.toggle("hidden");
     headerSec.classList.toggle("hidden");
     Aboutusection.classList.toggle("hidden");
   }, 500);
 };
 
 const signupBacktoHome = function (e) {
+  Section1.classList.toggle("hidden");
   headerSec.classList.toggle("hidden");
   Aboutusection.classList.toggle("hidden");
   const id = e.target.querySelector(".anc");
@@ -118,18 +123,22 @@ const revealAndHideSignin = function (e) {
 
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   setTimeout(() => {
+    Section1.classList.toggle("hidden");
     headerSec.classList.toggle("hidden");
     Aboutusection.classList.toggle("hidden");
+    footer.classList.toggle("hidden");
   }, 500);
 };
 
 const signinBacktoHome = function (e) {
+  Section1.classList.toggle("hidden");
   headerSec.classList.toggle("hidden");
   const id = e.target.getAttribute("href");
   document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   Aboutusection.classList.toggle("hidden");
   setTimeout(() => {
     signInsec.classList.toggle("hidden");
+    footer.classList.toggle("hidden");
   }, 100);
 };
 
@@ -152,7 +161,7 @@ const handleObserver = function (entries) {
 };
 const NavdivObserver = new IntersectionObserver(handleObserver, {
   root: null,
-  threshold: 0.8,
+  threshold: 0.6,
 });
 NavdivObserver.observe(AboutDiv);
 
@@ -169,10 +178,11 @@ const collectData = function (e) {
     Github: [gitUser.value, gitPass.value],
   };
   accounts.push(user3);
-
+  Section1.classList.toggle("hidden");
   signupSec.classList.toggle("hidden");
   headerSec.classList.toggle("hidden");
   Aboutusection.classList.toggle("hidden");
+
   const value = [
     signupUser,
     signupPass,
@@ -187,9 +197,8 @@ const collectData = function (e) {
     gitUser,
     gitPass,
   ];
-  value.forEach((val) => (val.value = ""));
 
-  // Aboutusection.classList.toggle(".hidden");
+  value.forEach((val) => (val.value = ""));
 };
 
 submitBtn.addEventListener("click", collectData);
@@ -205,6 +214,7 @@ const updateUI = function (obj) {
     <h4>Hello ${obj.username}!</h4>
 
   </div>
+  </div wrapper>
   <div class="row user">
    <div class="col-4 paint">
      <h3 class="name">USERNAME</h3>
@@ -219,102 +229,131 @@ const updateUI = function (obj) {
   <div class="user--saved">
   <div class="row ">
     <div class="col-1">
-    <i class="fa fa-facebook-official fa-2x"></i>
+    <i class="fa fa-facebook-official fa-2x fb-user-1"></i>
     </div>
     <div class="col-3 detail--paint">
-      <h4 class="name--detail">${obj.facebook[0]}</h4>
+      <h4 class="name--detail fb-user-1">${obj.facebook[0]}</h4>
     </div>
     <div class="col-1">
      
     </div>
     <div class="col-3 detail--paint left">
-       <h4 class="name--detail">${obj.facebook[1]}</h4>
+       <h4 class="name--detail fb-user-1">${obj.facebook[1]}</h4>
     </div>
   </div>
   <div class="row space">
     <div class="col-1">
-    <i class="fa fa-instagram fa-2x"></i>
+    <i class="fa fa-instagram fa-2x insta-user-1"></i>
     </div>
     <div class="col-3 detail--paint">
-      <h4 class="name--detail">${obj.instagram[0]}</h4>
+      <h4 class="name--detail insta-user-1">${obj.instagram[0]}</h4>
     </div>
     <div class="col-1">
 
     </div>
     <div class="col-3 detail--paint left">
-       <h4 class="name--detail">${obj.instagram[1]}</h4>
+       <h4 class="name--detail insta-user-1">${obj.instagram[1]}</h4>
     </div>
   </div>
   <div class="row space ">
     <div class="col-1">
-    <i class="fa fa-twitter-square fa-2x"></i>
+    <i class="fa fa-twitter-square fa-2x twitter-user-1"></i>
     </div>
     <div class="col-3 detail--paint">
-      <h4 class="name--detail">${obj.twitter[0]}</h4>
+      <h4 class="name--detail  twitter-user-1">${obj.twitter[0]}</h4>
     </div>
     <div class="col-1">
 
     </div>
     <div class="col-3 detail--paint left">
-       <h4 class="name--detail">${obj.twitter[1]}</h4>
+       <h4 class="name--detail  twitter-user-1">${obj.twitter[1]}</h4>
     </div>
   </div>
   <div class="row space">
     <div class="col-1">
-    <i class="fa fa-envelope fa-2x"></i>
+    <i class="fa fa-envelope fa-2x gmail-user-1"></i>
     </div>
     <div class="col-3 detail--paint">
-      <h4 class="name--detail">${obj.Gmail[0]}</h4>
+      <h4 class="name--detail gmail-user-1">${obj.Gmail[0]}</h4>
     </div>
     <div class="col-1">
 
     </div>
     <div class="col-3 detail--paint left">
-       <h4 class="name--detail">${obj.Gmail[1]}</h4>
+       <h4 class="name--detail gmail-user-1">${obj.Gmail[1]}</h4>
     </div>
   </div>
   <div class="row space">
     <div class="col-1">
-    <i class="fa fa-github fa-2x"></i>
+    <i class="fa fa-github fa-2x git-user-1"></i>
     </div>
     <div class="col-3 detail--paint">
-      <h4 class="name--detail">${obj.Github[0]}</h4>
+      <h4 class="name--detail git-user-1">${obj.Github[0]}</h4>
     </div>
     <div class="col-1">
 
     </div>
     <div class="col-3 detail--paint left">
-       <h4 class="name--detail">${obj.Github[1]}</h4>
+       <h4 class="name--detail git-user-1">${obj.Github[1]}</h4>
+    </div>
     </div>`;
   append.insertAdjacentHTML("afterbegin", html);
 };
-
+let value;
 const RenderShow = function (acc) {
-  console.log(acc);
   controller = acc.find((user) => user.username === Username.value);
-  console.log(controller);
+  if (controller) {
+    value = controller.password === Password.value;
+  }
+  if (!controller) {
+    // signInsec.classList.remove("hidden");
+    (Username.value = ""), (Password.value = "");
 
-  if (controller.password === Password.value) updateUI(controller);
-  (Username.value = ""), (Password.value = "");
+    // detailsPage.classList.add("hidden");
+    // headerSec.classList.add("hidden");
+    // Aboutusection.classList.add("hidden");
+  }
+
+  if (value) {
+    updateUI(controller);
+    (Username.value = ""), (Password.value = "");
+  }
+  if (!value) {
+    (Username.value = ""), (Password.value = "");
+  }
 };
 
 // navugating to details page
 
 const navigate = function () {
   RenderShow(accounts);
-  if (RenderShow) {
-    signInsec.classList.toggle("hidden");
+  if (!controller && !value) {
+    alert("username and password incorrect please try again");
+    signInsec.classList.remove("hidden");
+    detailsPage.classList.add("hidden");
+    headerSec.classList.add("hidden");
+    Aboutusection.classList.add("hidden");
+  }
+  if (!controller || !value) {
+    alert("username or password something went wrong");
+  }
+  if (controller && value) {
+    signInsec.classList.add("hidden");
 
     detailsPage.classList.remove("hidden");
     headerSec.classList.add("hidden");
     Aboutusection.classList.add("hidden");
+    btnbtn.classList.toggle("hidden");
   }
 };
 
 const AlterNative = function () {
   detailsPage.classList.toggle("hidden");
-  headerSec.classList.toggle("hidden");
+
+  Section1.classList.remove("hidden");
+  headerSec.classList.remove("hidden");
   Aboutusection.classList.toggle("hidden");
+  btnbtn.classList.toggle("hidden");
   append.innerHTML = "";
 };
 signinbtn.addEventListener("click", navigate);
