@@ -642,3 +642,79 @@ nav li:last-child {
 .hidden {
   display: none;
 }
+
+@media (min-width: 360px) and (max-width: 576px) {
+  .full-div {
+    width: 567px;
+    overflow: hidden;
+  }
+  nav {
+    width: fit-content;
+  }
+  .navbar {
+    padding-right: 200px;
+    padding-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+  .navbar-brand {
+    position: relative;
+    right: 30px;
+  }
+  .rubix {
+    display: none;
+  }
+  .img-content {
+    position: relative;
+    top: 250px;
+    width: fit-content;
+  }
+  .first-content {
+    position: relative;
+    right: 240px;
+    bottom: 250px;
+  }
+  .HEADING {
+    font-size: 130px;
+    font-weight: 500;
+  }
+  .head {
+    width: 200px;
+    font-size: 17px !important;
+    font-weight: 200;
+    position: relative;
+
+    bottom: 20px;
+    left: 50px !important;
+  }
+  .para-1 {
+    font-size: 12px;
+    width: 200px !important;
+    position: relative;
+    right: 540px;
+    bottom: 100px;
+  }
+  .field {
+    position: absolute;
+    bottom: 170px;
+    margin-right: 10px;
+  }
+  .text-muted {
+    /* position: relative;
+    bottom: 20px; */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .movedown {
+    position: relative;
+    bottom: 100px;
+  }
+  .word {
+    position: relative;
+    bottom: 100px;
+  }
+  .signin--navigate {
+    position: relative;
+    bottom: 100px;
+  }
+}
