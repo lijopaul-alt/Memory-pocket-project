@@ -696,7 +696,7 @@ nav li:last-child {
     font-size: 12px;
     width: 200px !important;
     position: relative;
-    right: 540px;
+    right: 550px;
     bottom: 100px;
   }
   .field {
@@ -720,5 +720,18 @@ nav li:last-child {
   .signin--navigate {
     position: relative;
     bottom: 140px;
+  }
+  .section__header {
+    font-size: 20px !important;
+  }
+  .btn--show-modal {
+    font-size: 12px !important;
+  }
+  .footer__nav {
+    padding-right: 45px;
+  }
+  .footer__link {
+    display: block;
+    font-size: 12px !important;
   }
 }
