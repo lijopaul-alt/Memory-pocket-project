@@ -625,11 +625,11 @@ nav li:last-child {
 }
 @media (min-width: 360px) and (max-width: 576px) {
   .full-div {
-    width: 567px;
+    width: 360px;
     overflow: hidden;
   }
   nav {
-    width: fit-content;
+    display: flex;
   }
   .navbar {
     padding-right: 200px;
@@ -639,7 +639,12 @@ nav li:last-child {
   }
   .navbar-brand {
     position: relative;
-    right: 30px;
+    right: 60px;
+  }
+  .navbar-toggler {
+    position: relative;
+    bottom: 67px;
+    left: 250px;
   }
   .rubix {
     display: none;
@@ -677,25 +682,24 @@ nav li:last-child {
   .field {
     position: absolute;
     bottom: 170px;
-    margin-right: 10px;
+    margin-left: 50px;
+    left: 1px;
   }
   .text-muted {
-    /* position: relative;
-    bottom: 20px; */
     margin-bottom: 30px;
     padding-bottom: 20px;
   }
   .movedown {
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
   }
   .word {
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
   }
   .signin--navigate {
     position: relative;
-    bottom: 100px;
+    bottom: 140px;
   }
 }
 
