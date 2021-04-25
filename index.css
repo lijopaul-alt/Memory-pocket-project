@@ -728,10 +728,45 @@ nav li:last-child {
     font-size: 12px !important;
   }
   .footer__nav {
-    padding-right: 45px;
+    padding-right: 50px;
   }
   .footer__link {
     display: block;
     font-size: 12px !important;
+  }
+  .FORM-DIV {
+    width: 100vw;
+    margin-left: 10px;
+    position: absolute;
+  }
+  .FORM-DIV .fa {
+    margin-top: 10px;
+  }
+
+  .FORM-DIV .change {
+    display: none;
+  }
+  .user-details {
+    position: relative;
+    display: inline;
+  }
+  .nw {
+    position: absolute;
+    bottom: 20px;
+  }
+  .na-2 {
+    margin-right: 60px;
+  }
+
+  .na-1 {
+    position: relative;
+    top: 2px;
+  }
+  .input {
+    width: 100px;
+    display: inline;
+  }
+  .label {
+    padding-top: 5px;
   }
 }
