@@ -643,6 +643,10 @@ const collectData = function (e) {
   ];
 
   value.forEach((val) => (val.value = ""));
+  setTimeout(
+    () => alert(`use have successfully signed up now try sign in`),
+    1000
+  );
 };
 
 submitBtn.addEventListener("click", collectData);
@@ -773,13 +777,16 @@ const navigate = function () {
   RenderShow(accounts);
   if (!controller && !value) {
     alert("username and password incorrect please try again");
-    signInsec.classList.remove("hidden");
-    detailsPage.classList.add("hidden");
-    headerSec.classList.add("hidden");
-    Aboutusection.classList.add("hidden");
+    // signInsec.classList.remove("hidden");
+    // detailsPage.classList.add("hidden");
+    // headerSec.classList.add("hidden");
+    // Aboutusection.classList.add("hidden");
   }
-  if (!controller || !value) {
-    alert("username or password something went wrong");
+  if (!controller && value) {
+    alert("username  went wrong");
+  }
+  if (controller && !value) {
+    alert(`password went wrong`);
   }
   if (controller && value) {
     signInsec.classList.add("hidden");

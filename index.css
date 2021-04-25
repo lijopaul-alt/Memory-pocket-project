@@ -769,4 +769,28 @@ nav li:last-child {
   .label {
     padding-top: 5px;
   }
+  #Details h1 {
+    font-size: 20px;
+  }
+  .info--1 h4 {
+    font-size: 15px;
+  }
+  .paint h3 {
+    font-size: 12px;
+    top: 2px;
+    position: relative;
+    right: 10px;
+  }
+  .detail--paint h4 {
+    font-size: 12px;
+  }
+  .btn-user {
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    box-sizing: border-box;
+  }
+  .btn-user a {
+    font-size: 10px;
+  }
 }
