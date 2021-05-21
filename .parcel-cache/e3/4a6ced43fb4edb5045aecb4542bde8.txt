@@ -9,7 +9,7 @@
 104E:\study material\Office\Front end  web developer\projects\megmen\node_modules\tough-cookie\node_modules132637642394933432 1
 138E:\study material\Office\Front end  web developer\projects\megmen\node_modules\regenerate-unicode-properties\Script_Extensions\Tagbanwa.js121436361000000000 0
 118E:\study material\Office\Front end  web developer\projects\megmen\node_modules\core-js\features\array\virtual\every.js121436361000000000 0
-70E:\study material\Office\Front end  web developer\projects\megmen\dist132638377646562865 1
+70E:\study material\Office\Front end  web developer\projects\megmen\dist132638430868532483 1
 101E:\study material\Office\Front end  web developer\projects\megmen\node_modules\util.promisify\shim.js121436361000000000 0
 94E:\study material\Office\Front end  web developer\projects\megmen\node_modules\reusify\LICENSE130861827700000000 0
 76E:\study material\Office\Front end  web developer\projects\megmen\.gitignore132637643001919111 0
@@ -24,10 +24,10 @@
 144E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-modules-values\node_modules\source-map\dist\source-map.js131511695990000000 0
 83E:\study material\Office\Front end  web developer\projects\megmen\node_modules\svgo132637642788467955 1
 88E:\study material\Office\Front end  web developer\projects\megmen\node_modules\aws-sign2132637642531411730 1
-76E:\study material\Office\Front end  web developer\projects\megmen\index.html132638217750178478 0
+76E:\study material\Office\Front end  web developer\projects\megmen\index.html132638414273620590 0
 105E:\study material\Office\Front end  web developer\projects\megmen\node_modules\uri-js\dist\esnext\schemes132637642783766002 1
 123E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-merge-longhand\dist\lib\minifyWsc.js121436361000000000 0
-75E:\study material\Office\Front end  web developer\projects\megmen\index.css132638220451176858 0
+75E:\study material\Office\Front end  web developer\projects\megmen\index.css132638422319621852 0
 95E:\study material\Office\Front end  web developer\projects\megmen\node_modules\lodash\fp\sum.js121436361000000000 0
 96E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-svgo\dist132637642558923795 1
 117E:\study material\Office\Front end  web developer\projects\megmen\node_modules\caniuse-lite\data\features\webauthn.js121436361000000000 0
@@ -62,7 +62,7 @@
 146E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-convert-values\node_modules\postcss\lib\css-syntax-error.js121436361000000000 0
 95E:\study material\Office\Front end  web developer\projects\megmen\node_modules\terser\lib\utils132637642788826994 1
 142E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-reduce-transforms\node_modules\source-map\lib\base64.js131369414910000000 0
-74E:\study material\Office\Front end  web developer\projects\megmen\index.js132637599419375437 0
+74E:\study material\Office\Front end  web developer\projects\megmen\index.js132638420690454812 0
 126E:\study material\Office\Front end  web developer\projects\megmen\node_modules\icss-utils\node_modules\color-name\package.json131446305990000000 0
 120E:\study material\Office\Front end  web developer\projects\megmen\node_modules\@babel\compat-data\overlapping-plugins.js121012626000000000 0
 127E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-convert-values\node_modules\postcss\docs132637642779230364 1
@@ -8187,7 +8187,7 @@
 112E:\study material\Office\Front end  web developer\projects\megmen\node_modules\posthtml\node_modules\htmlparser2132637642679468391 1
 100E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-colormin\dist132637642594822999 1
 149E:\study material\Office\Front end  web developer\projects\megmen\node_modules\postcss-minify-font-values\node_modules\source-map\lib\mapping-list.js131369414910000000 0
-88E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js132638377645991467 0
+88E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js132638430867933472 0
 134E:\study material\Office\Front end  web developer\projects\megmen\node_modules\icss-utils\node_modules\source-map\lib\binary-search.js131369414910000000 0
 112E:\study material\Office\Front end  web developer\projects\megmen\node_modules\highlight.js\scss\foundation.scss121436361000000000 0
 116E:\study material\Office\Front end  web developer\projects\megmen\node_modules\posthtml\node_modules\posthtml-parser132637642679458430 1
@@ -21868,8 +21868,8 @@
 89E:\study material\Office\Front end  web developer\projects\megmen\node_modules\.bin\which132637642861578401 0
 92E:\study material\Office\Front end  web developer\projects\megmen\dist\black-1.2be861be.jpeg132637348855519283 0
 92E:\study material\Office\Front end  web developer\projects\megmen\dist\black-1.89cd4202.jpeg132636549103821508 0
-89E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css132638377645625973 0
-93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css.map132638377646132353 0
+89E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css132638430868122634 0
+93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.0f132b6c.css.map132638430868529331 0
 88E:\study material\Office\Front end  web developer\projects\megmen\dist\index.135d657a.js132636549577029350 0
 92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.135d657a.js.map132636549577079354 0
 92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.17d2b394.js.map132638113591350157 0
@@ -21879,9 +21879,9 @@
 93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.bc71e025.css.map132636549577079354 0
 89E:\study material\Office\Front end  web developer\projects\megmen\dist\index.e3c29553.css132638113590203913 0
 93E:\study material\Office\Front end  web developer\projects\megmen\dist\index.e3c29553.css.map132638113590253561 0
-92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js.map132638377646562865 0
-81E:\study material\Office\Front end  web developer\projects\megmen\dist\index.html132638377645695769 0
-89E:\study material\Office\Front end  web developer\projects\megmen\dist\new-2.08a9a175.png132638377645823311 0
+92E:\study material\Office\Front end  web developer\projects\megmen\dist\index.fd532818.js.map132638430868228029 0
+81E:\study material\Office\Front end  web developer\projects\megmen\dist\index.html132638430867994240 0
+89E:\study material\Office\Front end  web developer\projects\megmen\dist\new-2.08a9a175.png132638430868345163 0
 89E:\study material\Office\Front end  web developer\projects\megmen\dist\new-2.d8fed4d5.png132638112887038944 0
 87E:\study material\Office\Front end  web developer\projects\megmen\dist\New.17f24299.png132637314093689722 0
 96E:\study material\Office\Front end  web developer\projects\megmen\dist\Rubix-edited.e0b8663f.jpg132637282874290017 0
