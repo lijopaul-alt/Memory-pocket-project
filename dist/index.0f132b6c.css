@@ -510,16 +510,17 @@ nav li:last-child {
 }
 #Details h1 {
   font-size: 4rem;
-  margin-left: 15%;
-  margin-top: 5%;
+  text-align: center;
+  /* margin-left: 15%; */
+  /* margin-top: 5%; */
   animation: article-load 300ms ease-in var(--article-load-delay);
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
 }
 .info--1 {
-  margin-top: 20px;
-  margin-left: 15%;
+  /* margin-top: 20px; */
+  /* margin-left: 15%; */
 
   color: #ff8600;
   animation: article-load 300ms ease-in 1600ms;
@@ -528,23 +529,37 @@ nav li:last-child {
   opacity: 0;
 }
 .user {
-  margin-top: 3%;
-  margin-left: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 3%; */
+  /* margin-left: 15%; */
   animation: article-load 300ms ease-in 2000ms;
   animation-fill-mode: forwards;
   transform: translateY(-20px);
   opacity: 0;
 }
+.user > *:nth-child(1) {
+  margin-right: 2rem;
+}
+.user > *:nth-child(2) {
+  display: none;
+}
 .paint {
+  text-align: center;
   background-color: #ff8600;
-  border-radius: 5px;
-  width: 20px;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 20px; */
 }
 /* .wrapper {
   padding-left: 200px;
 } */
 .name {
-  margin-left: 22%;
+  /* margin-left: 22%; */
 }
 .name--detail {
   color: #ff8600;
@@ -605,9 +620,23 @@ nav li:last-child {
     opacity: 1;
   }
 }
-.user--saved {
-  margin-top: 2%;
-  margin-left: 13%;
+.user--saved .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.user--saved .row i {
+  color: #fff;
+}
+.user--saved .row > *:nth-child(3) {
+  display: none;
+}
+.user--saved .row > *:nth-child(2) {
+  margin-right: 20%;
+  margin-left: -90px;
+}
+.user--saved .row > *:last-child {
+  flex-grow: 1;
 }
 .user--saved .detail--paint {
   /* background-color: #fcfcfc; */
@@ -770,6 +799,9 @@ nav li:last-child {
     position: relative;
     /* display: inline; */
   }
+  .user > *:first-child {
+    margin-right: 3rem;
+  }
   .info label {
     font-size: 10px;
   }
@@ -822,8 +854,10 @@ nav li:last-child {
   .footer__copyright {
     font-size: 12px;
   }
-  .row {
-    /* justify-content: space-between; */
+
+  .user--saved .row > *:nth-child(2) {
+    margin-right: 10%;
+    margin-top: 2%;
   }
 }
 
